@@ -45,7 +45,7 @@ function FeedbackForm() {
 			};
 
 			if (feedbackEdit.edit === true) {
-				updateFeedback(feedbackEdit.ite.id, newFeedback);
+				updateFeedback(feedbackEdit.item.id, newFeedback);
 			} else {
 				addFeedback(newFeedback);
 			}
